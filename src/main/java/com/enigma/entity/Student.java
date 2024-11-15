@@ -4,13 +4,13 @@ public class Student {
   private String studentId;
   private String studentName;
   private String department;
-  private Integer marks;
+  private Integer mark;
 
-  public Student(String studentId, String studentName, String department, Integer marks) {
+  public Student(String studentId, String studentName, String department, Integer mark) {
     this.studentId = studentId;
     this.studentName = studentName;
     this.department = department;
-    this.marks = marks;
+    this.mark = mark;
   }
 
   public Student() {
@@ -28,7 +28,7 @@ public class Student {
     return department;
   }
 
-  public Integer getMarks() {
-    return marks;
+  public Integer getMark() {
+    return mark;
   }
 }
